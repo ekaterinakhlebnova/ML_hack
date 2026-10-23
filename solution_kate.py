@@ -14,8 +14,8 @@ def read_task(path: Path) -> str:
 
 
 START_TIME = time.time()
-TOTAL_LIMIT = 10800          # 3 часа платформы
-DEADLINE = START_TIME + TOTAL_LIMIT - 600   # за 10 минут до конца Qwen больше не вызываем
+TOTAL_LIMIT = 10800         
+DEADLINE = START_TIME + TOTAL_LIMIT - 900  
 
 
 def seconds_left() -> float:
